@@ -11,7 +11,7 @@
         '    </li>' +
 
         '    <li class="sociable-item">' +
-        '        <a href="index.html#" class="social-icon"><i class="fa fa-instagram"></i></a>' +
+        '        <a href="https://www.instagram.com/inmobiliaria_uribevelez/" target="_blank" class="social-icon"><i class="fa fa-instagram"></i></a>' +
         '</li>' +
         '    <li class="sociable-item">' +
         '        <a href="https://wa.me/573053593792" target="blank" class="social-icon"><i class="fa fa-whatsapp"></i></a>' +
@@ -83,7 +83,7 @@
         '                <nav class="main-navigation">' +
         '                    <ul class="navigation-listing hidden-xs">' +
         '                        <li class="navigation-item">' +
-        '                            <a href="index.html#">Inicio</a>' +
+        '                            <a href="index.html">Inicio</a>' +
         '                        </li>' +
         '                        <li class="navigation-item">' +
         '                            <a href="quienes-somos.html">Quienes Somos</a>' +

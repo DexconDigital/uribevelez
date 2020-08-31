@@ -97,12 +97,12 @@
 
 									<div class="column-3 ">
 										<div class="info-item">
-											<span class="label-item">Codigo:</span>
+											<span class="label-item">Código:</span>
 											<span class="value">
 												<?php echo $codigo;?></span>
 										</div>
 										<div class="info-item">
-											<span class="label-item"><i class="fa fa-compress"></i> Area:</span>
+											<span class="label-item"><i class="fa fa-compress"></i> Área:</span>
 											<span class="value" id="area"> </span>
 										</div>
 
@@ -217,7 +217,7 @@
 									</div>
 									<div class="row">
 										<div class="col-sm-12">
-											<span class="item-label">Codigo</span>
+											<span class="item-label">Código</span>
 											<div class="ui-front">
 												<input class="codigo-input codeInm">
 

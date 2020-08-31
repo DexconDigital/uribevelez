@@ -10,7 +10,7 @@ setTimeout(function () {
         },
         'dataType': "json",
         success: function (data) {
-            console.log(data)
+            // console.log(data)
 
             var res = "";
             if (data == "Sin resultados") {
@@ -19,36 +19,56 @@ setTimeout(function () {
                 return;
 
             } else {
-                var j = 0;
+                // var j = 0;
 
                 for (var i = 0; i < data.infoAdd.totalInmuebles; i++) {
 
+                    res += '<li>' +
+                    '<div class="item">' +
+                    '<div class="preview">' +
+                    '<a href="./detalle-inmueble.php?dt=' + data[i].Codigo_Inmueble + '">'+
+                    '<img class="tam_img" id="foto-prop" src="' + data[i].foto1 + '" alt="">' +
+                    '</a>'+
+                    '<span class="like">' +
+                    '<i class="fa fa-heart"></i>' +
+                    '</span>' +
+                    '</div>' +
+                    '<div class="item-thumbnail">' +
+                    '<div class="single-thumbnail">' +
+                    '<i class="icon bath"></i>' +
+                    '<span class="value">' + data[i].banios + '</span>' +
+                    '</div>' +
+                    '<div class="single-thumbnail">' +
+                    '<i class="icon sleep"></i>' +
+                    '<span class="value">' + data[i].Alcobas + '</span>' +
+                    '</div>' +
+                    '<div class="single-thumbnail">' +
+                    '<i class="icon corner"></i>' +
+                    '<span class="value">' + data[i].AreaConstruida + 'mt²</span>' +
+                    '</div>' +
+                    '</div>' +
+                    '<div class="item-entry">' +
+                    '<span class="item-title"><a href="./detalle-inmueble.php?dt=' + data[i].Codigo_Inmueble + '">' + data[i].Codigo_Inmueble + '</a></span>' +
+                    '<p class="item-text">' + data[i].Gestion + '</p>' +
+                    '<p class="item-text">' + data[i].Tipo_Inmueble + '</p>' +
+                    '<div class="item-info">' +
+                    '<span id="precio-prop" class="price">$' + data[i].Canon + '</span>' +
 
-                    $("#foto-prop" + i + "").attr("src", data[i].foto1);
+                    '</div>' +
+                    '</div>' +
+                    '</div>' +
+                    '</li>'; 
 
-
-                    $("#precio-prop" + i + "").text("$ " + data[i].Canon);
-
-                    $("#barrio-prop" + i + "").text(" " + data[i].Barrio + "  " + data[i].Codigo_Inmueble);
-                    $("#ubicacion-prop" + i + "").text(" " + data[i].Ciudad + ", " + data[i].Departamento);
-                    $("#alcobas-prop" + i + "").text(data[i].Alcobas);
-                    $("#banios-prop" + i + "").text(data[i].banios);
-                    $("#area-prop" + i + "").text(data[i].AreaConstruida + " mts");
-                    $("#code-prop" + i + "").text(data[i].Codigo_Inmueble);
-                    $("#descripcion-prop" + i + "").text(data[i].descripcionlarga);
-                    $("#gestion-prop" + i + "").text(data[i].Gestion);
-                    $("#inmueble-prop" + i + "").text(data[i].Tipo_Inmueble);
-                    $(".direccion-prop" + i + "").attr("href", "detalle-inmueble.php?dt=" + data[i].Codigo_Inmueble);
-                    j++;
-                    if (j > 20) {
-                        break;
-                    }
+                    // j++;
+                    // if (j > 20) {
+                    //     break;
+                //     }
 
                 }
 
 
             }
-
+            $("#propiedades").append(res);
 
         }
 

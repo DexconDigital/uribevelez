@@ -53,11 +53,11 @@ function imprimir(count) {
                         res+='<div class="col-lg-4 col-md-6">'+
                         '<div class="item">'+
                         '<div class="preview">'+
-                        '<a href="detalle-inmueble.php?dt=' + data.Inmuebles[pos].Codigo_Inmueble + '"><img src="media/images/object-slider/1.jpg" alt=""></a>';
+                        '<a href="detalle-inmueble.php?dt=' + data.Inmuebles[pos].Codigo_Inmueble + '"><img src="media/images/object-slider/1.jpg" style=" width: 100%;height: 200px; alt=""></a>';
                         if (data.Inmuebles[pos].foto1 != "") {
-                            res += '<a href="detalle-inmueble.php?dt=' + data.Inmuebles[pos].Codigo_Inmueble + '"><img src="' + data.Inmuebles[pos].foto1 + '" alt=""></a>';
+                            res += '<a href="detalle-inmueble.php?dt=' + data.Inmuebles[pos].Codigo_Inmueble + '"><img src="' + data.Inmuebles[pos].foto1 + '" style=" width: 100%;height: 200px;" alt=""></a>';
                         } else {
-                            res += '<a href="detalle-inmueble.php?dt=' + data.Inmuebles[pos].Codigo_Inmueble + '"><img src="images/no-image.png" alt=""></a>';
+                            res += '<a href="detalle-inmueble.php?dt=' + data.Inmuebles[pos].Codigo_Inmueble + '"><img src="images/no-image.png" style=" width: 100%;height: 200px; alt=""></a>';
                         }
                         res+='</div>'+
                         '<div class="item-thumbnail">'+
@@ -136,9 +136,9 @@ function imprimir(count) {
                             '<div class="item">'+
                             '<div class="preview">';
                             if (data.Inmuebles[pos].foto1 != "") {
-                                res += '<a href="detalle-inmueble.php?dt=' + data.Inmuebles[pos].Codigo_Inmueble + '"><img src="' + data.Inmuebles[pos].foto1 + '" alt=""></a>';
+                                res += '<a href="detalle-inmueble.php?dt=' + data.Inmuebles[pos].Codigo_Inmueble + '"><img src="' + data.Inmuebles[pos].foto1 + '" style=" width: 100%;height: 200px; alt=""></a>';
                             } else {
-                                res += '<a href="detalle-inmueble.php?dt=' + data.Inmuebles[pos].Codigo_Inmueble + '"><img src="images/no-image.png" alt=""></a>';
+                                res += '<a href="detalle-inmueble.php?dt=' + data.Inmuebles[pos].Codigo_Inmueble + '"><img src="images/no-image.png" style=" width: 100%;height: 200px; alt=""></a>';
                             }
                             res+='</div>'+
                             '<div class="item-thumbnail">'+
