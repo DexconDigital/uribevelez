@@ -1,0 +1,497 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201308 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2548                
+POS_VISITOR 9972                
+POS_DAY 14566               
+POS_DOMAIN 3397                
+POS_LOGIN 3630                
+POS_ROBOT 3785                
+POS_WORMS 4485                
+POS_EMAILSENDER 4616                
+POS_EMAILRECEIVER 4759                
+POS_SESSION 15284               
+POS_SIDER 15495               
+POS_FILETYPES 4894                
+POS_OS 5058                
+POS_BROWSER 5204                
+POS_SCREENSIZE 5744                
+POS_UNKNOWNREFERER 5818                
+POS_UNKNOWNREFERERBROWSER 7168                
+POS_ORIGIN 7918                
+POS_SEREFERRALS 8059                
+POS_PAGEREFS 8214                
+POS_SEARCHWORDS 8985                
+POS_KEYWORDS 9167                
+POS_MISC 2211                
+POS_ERRORS 9258                
+POS_CLUSTER 3486                
+POS_SIDER_404 9373                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130826173755 390 66928 54878194050
+FirstTime 20130801004126
+LastTime 20130826164415
+LastUpdate 20130827003257 390 0 135 114 141
+TotalVisits 364                 
+TotalUnique 111                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 112                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 41 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 29 48 1233431 31 48 889256
+1 53 55 1019417 28 48 1165571
+2 24 24 276307 27 43 842048
+3 17 18 391376 26 45 1999286
+4 39 39 412675 18 40 1043575
+5 40 40 798901 33 67 2444416
+6 30 79 807933 25 67 1487538
+7 36 70 676135 38 75 1165759
+8 53 63 698629 30 69 949940
+9 43 53 530135 28 64 1327876
+10 75 161 3324354 28 72 894689
+11 58 125 2999669 25 49 827708
+12 52 96 1192905 28 58 1293851
+13 38 108 2074348 36 65 1280976
+14 78 306 3354174 32 64 1219553
+15 47 103 1537620 25 56 1076056
+16 46 121 1234677 18 51 929831
+17 65 154 1788800 16 65 1270657
+18 41 60 1153661 25 67 710173
+19 22 46 764655 21 70 837423
+20 41 41 466497 60 94 1937150
+21 90 167 1925321 59 91 1350299
+22 57 79 947296 38 70 1318855
+23 26 26 421030 26 47 1622923
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1100 2082 30029946
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+robot 399 12250672 20130826173755 0
+googlebot 234 3570530 20130826053422 0
+yandex 181 9011566 20130823190322 0
+baiduspider 53 1164639 20130826021335 0
+\wbot[\/\-] 31 809070 20130826135928 0
+spider 26 37836 20130825144621 0
+bspider 23 418467 20130826032236 0
+mj12bot 20 523808 20130824203730 0
+nutch 11 208104 20130822082516 0
+msnbot\-media 10 361326 20130813144056 0
+exabot 2 90759 20130811131202 0
+surveybot 2 37799 20130820020942 0
+psbot 1 3897 20130817180957 0
+turnitinbot 9 151699 20130814074043 0
+netcraft 2 18919 20130809150355 0
+crawl 2 37799 20130820065017 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+bmp 155 539944 0 0
+html 663 17095273 0 0
+js 2 16309 0 0
+jpg 680 9199473 0 0
+htm 437 1149989 0 0
+gif 145 2028958 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winxp 714
+winlong 151
+winnt 602
+win98 2
+linuxubuntu 47
+linux 326
+macosx 124
+win95 1
+win2003 28
+Unknown 87
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 34
+msie6.0 202
+firefox5.0 19
+firefox20.0 51
+firefox4.0.1 24
+firefox3.6.11 30
+firefox4.0 1
+msie8.0 213
+firefox6.0.2 3
+firefox2.0.0.3 2
+msie7.0 95
+firefox16.0 1
+firefox9.0.1 13
+msie9.0 280
+Unknown 27
+firefox11.0 2
+firefox3.6.7 12
+opera 233
+samsung 16
+firefox3.0.11 1
+firefox2.0.0.6 117
+firefox7.0.1 14
+firefox3.6.23 14
+mozilla 21
+firefox14.0.1 10
+msie10.0 80
+firefox5.0.1 13
+firefox6.0 2
+firefox3.6.18 9
+firefox2.0.0.4 1
+netscape6.1 2
+netscape6.01 1
+firefox3.6.8 25
+safari 515
+firefox3.6.13 33
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+Wotbox/2.01_(_http://www.wotbox.com/bot/) 20130814181702
+Mozilla/5.0_(compatible;_MSIE_9.0;_Windows_Phone_OS_7.5;_Trident/5.0;_IEMobile/9.0;_NOKIA;_Lumia_610) 20130804181709
+NCBot_(http://netcomber.com?st=ba_:_tool_for_finding_true_domain_owners)_Queries/complaints:_bot@netcomber.com 20130825150440
+SAMSUNG-GT-S5260/1.0_SHP/VPP/R5_Dolfin/2.0_NexPlayer/3.0_SMM-MMS/1.2.0_profile/MIDP-2.1_configuration/CLDC-1.1_OPN-B 20130812143407
+Xenu_Link_Sleuth/1.3.8 20130804015951
+Mozilla/5.0_(compatible;_Ezooms/1.0;_ezooms.bot@gmail.com) 20130825104607
+Mozilla/5.0_(compatible;_pmoz.info_ODP_link_checker;__http://pmoz.info/doc/botinfo.htm) 20130814053203
+http.trovitutto.eu/trovitutto.eu_computer_accessori_sigarette_elettroniche_(trovitutto.eu_dove_tutto_costa_meno._Prodotti_di_informatica,_sigarette_elettroniche,_ricariche_e_gadget_per_i_tuoi_regali._Acquista_in_sicurezza_sul_nostro_sito.;_http://www.trovitutto.eu;_info@trovitutto.eu) 20130812153403
+Android/4.1.1;_samsung_Galaxy_Nexus;_2.3.1 20130820194634
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20130811120824
+Mozilla/5.0_(compatible;_SearchmetricsBot;_http://www.searchmetrics.com/en/searchmetrics-bot/) 20130825092254
+AdBot_1.0_(www.adnetik.com) 20130822124513
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Wotbox/2.01_(_http://www.wotbox.com/bot/) 20130814181702
+http.trovitutto.eu/trovitutto.eu_computer_accessori_sigarette_elettroniche_(trovitutto.eu_dove_tutto_costa_meno._Prodotti_di_informatica,_sigarette_elettroniche,_ricariche_e_gadget_per_i_tuoi_regali._Acquista_in_sicurezza_sul_nostro_sito.;_http://www.trovitutto.eu;_info@trovitutto.eu) 20130812153403
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20130811120824
+NCBot_(http://netcomber.com?st=ba_:_tool_for_finding_true_domain_owners)_Queries/complaints:_bot@netcomber.com 20130825150440
+Xenu_Link_Sleuth/1.3.8 20130804015951
+AdBot_1.0_(www.adnetik.com) 20130822124513
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 830 835
+From1 0 0
+From2 2 2
+From3 22 22
+From4 246 1223
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 15
+https://www.facebook.com 7 7
+http://netcomber.com/uribevelez.com 2 2
+http://asupro.com/page/7/ 1 1
+http://shablon.com/cat/155 1 1
+http://asupro.com/automation/equipments/korenix-jetbox-8195-jetport-5804.html 1 1
+http://shablon.com/cat/214 1 1
+http://shablon.com/cat/809 1 1
+http://shablon.com/cat/127 1 1
+http://asupro.com/work/asdue-electric-mining-company.html 1 1
+http://www.urbanflowmedellin.com/favicon.ico 1 1
+http://www.pagesinventory.com/domain/www.uribevelez.com.html 1 1
+http://shablon.com/cat/41 1 1
+http://shablon.com/cat/781 1 1
+http://correoremoto.epm.net.co/zimbra/h/search 1 1
+https://www.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+www.uribevelez.com+objetivo 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+objetivo 2
+www.uribevelez.com 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 33 408643
+405 1 1786
+404 445 778090
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 13
+/apple-touch-icon-precomposed.png 1 -
+/robots.txt 192 -
+/Fotos/06806.jpg 3 -
+/apple-touch-icon.png 232 -
+/Fotos/13321.jpg 1 -
+/webalizer/ 1 -
+/Fotos/13289.jpg 2 -
+/Fotos/09562.jpg 2 -
+/Fotos/09214.jpg 3 -
+/Fotos/13314.jpg 3 -
+/Fotos/12732.jpg 1 -
+/Fotos/09221.jpg 2 -
+/Fotos/13183.jpg 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 112
+208.80.194.120 199 199 2187584 20130826082842
+208.80.194.127 104 104 1154331 20130826002211
+208.80.194.26 91 91 1006078 20130824232623
+208.80.194.30 90 90 987221 20130823081219
+201.232.79.253 57 244 1936224 20130823145748
+208.80.194.29 47 47 531378 20130826081617
+208.80.194.28 44 44 474692 20130821101246
+46.235.12.153 42 117 1153327 20130804212501
+91.203.97.254 30 213 1904863 20130825145659
+190.250.164.167 28 48 1474378 20130821160620
+190.250.120.247 3 13 128975 20130804171001
+190.85.76.234 6 24 866189 20130825102347
+190.250.231.85 5 18 367433 20130825141150
+181.132.26.97 1 1 18899 20130815112744
+208.80.194.37 4 4 43112 20130822084101
+202.46.61.30 1 1 0 20130808094539
+181.135.152.229 2 2 54075 20130807190041
+181.245.216.3 3 15 245124 20130826102337
+69.58.178.58 11 11 451396 20130811120835
+54.225.47.19 1 1 18899 20130822124513
+181.135.158.161 3 13 129006 20130811172525
+109.120.137.47 1 1 18900 20130807053228
+204.13.200.8 1 1 18923 20130813210150
+190.3.200.177 6 38 946279 20130819130241
+181.71.47.228 1 1 18899 20130824141803
+201.233.0.122 20 34 861410 20130826154716
+109.120.137.68 3 3 56697 20130818053806
+190.250.146.49 10 30 242942 20130802162059
+181.135.162.152 3 5 382809 20130818001232
+181.135.132.3 2 2 50734 20130819094600
+208.80.194.32 3 3 40476 20130806215518
+181.134.27.182 5 28 401490 20130825170353
+201.233.38.56 3 14 118275 20130806141723
+142.4.217.219 1 1 18900 20130803233816
+77.78.109.73 1 1 18899 20130823043229
+190.249.195.20 2 12 110108 20130809092055
+186.43.31.58 6 20 621406 20130804103954
+190.145.85.197 2 12 18899 20130814125045
+190.248.9.20 2 2 0 20130804103211
+119.63.193.195 1 1 0 20130808094600
+190.144.233.210 2 12 110107 20130826164415 20130826164415 /Objetivo.htm
+181.48.21.34 0 6 222811 
+5.9.73.44 1 1 18899 20130825092254
+84.200.8.107 1 1 18919 20130803051549
+190.250.210.29 14 15 456620 20130826163050
+208.80.194.36 7 7 83646 20130808090903
+181.135.173.172 2 2 21574 20130810201130
+202.46.62.16 1 1 2727 20130824145237
+107.22.116.81 1 1 18919 20130801045411
+201.233.209.23 2 13 113486 20130817142623
+131.253.24.102 2 2 21518 20130811022142
+181.135.157.83 2 2 51803 20130822235351
+150.70.173.48 1 1 18899 20130825102408
+198.136.53.234 1 1 18899 20130812104450
+208.80.194.27 10 10 91728 20130813122700
+208.115.113.82 13 13 449389 20130825104607
+190.251.130.130 3 15 175221 20130817120423
+46.161.41.24 1 1 35175 20130813012033
+38.100.21.65 11 11 431569 20130814053331
+202.46.62.17 1 1 0 20130806075039
+181.135.147.21 2 2 50734 20130818145745
+200.4.25.18 1 7 64097 20130817001223
+150.70.75.212 1 1 18899 20130825103203
+66.249.85.83 2 2 5350 20130823110405
+181.135.161.44 1 1 18899 20130809153014
+190.158.87.9 20 84 922554 20130823103632
+181.59.64.141 10 59 2182563 20130818005226
+198.50.172.42 1 1 18899 20130815103330
+190.250.56.182 6 16 122358 20130813165624
+46.229.167.149 2 2 37798 20130820111148
+109.120.142.125 2 2 37800 20130803185110
+208.80.194.34 15 15 153701 20130818092142
+83.136.250.174 3 3 56700 20130806101813
+186.43.26.172 5 15 131330 20130812143407
+208.115.113.92 4 4 44220 20130823203236
+190.126.49.68 4 25 638026 20130804180556
+181.135.149.201 2 2 50734 20130817030129
+202.46.49.13 1 1 4807 20130824145241
+81.144.138.34 21 21 545131 20130814181702
+150.70.172.104 1 1 18923 20130825102704
+181.68.35.134 3 15 159014 20130805194312
+78.47.164.108 1 1 18918 20130812153403
+208.80.194.35 6 6 48558 20130823074956
+84.95.88.100 1 1 18899 20130820194634
+190.28.189.2 3 14 144117 20130825104503
+95.211.240.134 1 1 329 20130809091602
+181.135.170.235 2 2 51803 20130824232624
+119.63.193.194 1 1 0 20130806075109
+131.253.36.201 2 2 21574 20130824110534
+200.5.72.183 1 1 310 20130804015951
+131.253.24.50 2 2 21518 20130810112543
+206.225.83.83 2 2 21574 20130810012606
+207.172.191.39 1 1 309 20130814053203
+181.135.153.174 2 2 51803 20130825162703
+181.135.171.210 4 6 229540 20130816000120
+200.4.25.58 2 8 219454 20130817001230
+186.180.224.165 7 17 147906 20130809151759
+181.71.11.210 2 2 51803 20130823103503
+201.232.176.201 5 16 340026 20130804224630
+181.135.152.221 2 2 51803 20130825132904
+85.25.134.59 2 2 37798 20130825150440
+190.250.238.177 4 22 554245 20130817132006
+24.103.228.225 4 19 370572 20130803144704
+200.24.0.176 2 14 317712 20130806163046
+91.194.254.79 1 1 18899 20130825084739
+142.54.184.18 1 1 18899 20130817132552
+190.248.204.35 4 15 286586 20130817113445
+50.23.254.99 1 1 18918 20130826151855
+208.90.57.196 2 2 21612 20130816101325
+186.82.153.132 2 12 110107 20130826130343
+202.46.48.14 1 1 91779 20130824145240
+188.190.98.18 1 1 18899 20130826121930
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20130801 29 49 486043 14
+20130802 36 88 572476 12
+20130803 28 54 754672 13
+20130804 117 331 4209761 23
+20130805 49 62 739375 14
+20130806 65 98 1150464 20
+20130807 31 31 375109 10
+20130808 32 32 323747 10
+20130809 68 99 988035 17
+20130810 57 68 900889 18
+20130811 54 64 1028044 17
+20130812 26 48 726115 10
+20130813 24 45 485885 11
+20130814 83 154 2414072 15
+20130815 39 77 1132494 15
+20130816 23 25 442667 10
+20130817 52 176 4155336 17
+20130818 39 42 835403 18
+20130819 22 42 901070 9
+20130820 26 48 486082 11
+20130821 23 34 340722 9
+20130822 32 33 590405 14
+20130823 29 49 529273 14
+20130824 26 26 380288 15
+20130825 49 220 3450489 15
+20130826 41 87 1631030 13
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 9
+5mn-15mn 7
+30s-2mn 12
+2mn-5mn 11
+15mn-30mn 21
+0s-30s 241
+30mn-1h 62
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/index.html 489 8689335 284 157
+/Objetivo.htm 396 1009245 59 121
+/Tablas/Arriendo_Apartamentos.html 49 1464103 3 27
+/Tablas/Venta_Apartamentos.html 25 4170543 1 17
+/Tablas/Venta_Fincas.html 14 934365 1 3
+/Tablas/Arriendo_Casas.html 13 241664 1 2
+/Conavi.htm 13 52959 1 9
+/Tablas/Venta_Casas.html 11 898636 2 3
+/Tablas/Arriendo_Locales.html 10 155136 1 4
+/zonas_y_ciudades.htm 9 45768 1 2
+/Tablas/Venta_Locales.html 5 71531 0 0
+/Tablas/Venta_Bodegas.html 7 50112 1 2
+/Tablas/Arriendo_Consultorios.html 8 19969 1 3
+/Solicitud_Arriendo.htm 4 7598 1 1
+/Tablas/Venta_Consultorios.html 7 23577 1 1
+/Tablas/Arriendo_Oficinas.html 8 97896 1 3
+/Tablas/Arriendo_Bodegas.html 4 11905 1 1
+/Quienes_Somos.htm 6 11892 1 2
+/promotores.htm 9 22527 2 4
+/Tablas/Venta_Oficinas.html 5 72611 0 0
+/Tablas/Venta_Lotes.html 8 193890 1 1
+END_SIDER

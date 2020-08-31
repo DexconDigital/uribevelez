@@ -1,0 +1,766 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201010 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2548                
+POS_VISITOR 13478               
+POS_DAY 22604               
+POS_DOMAIN 3386                
+POS_LOGIN 3618                
+POS_ROBOT 3773                
+POS_WORMS 4532                
+POS_EMAILSENDER 4663                
+POS_EMAILRECEIVER 4806                
+POS_SESSION 23356               
+POS_SIDER 23568               
+POS_FILETYPES 4941                
+POS_OS 5108                
+POS_BROWSER 5259                
+POS_SCREENSIZE 5637                
+POS_UNKNOWNREFERER 5711                
+POS_UNKNOWNREFERERBROWSER 6112                
+POS_ORIGIN 6281                
+POS_SEREFERRALS 6424                
+POS_PAGEREFS 6594                
+POS_SEARCHWORDS 6977                
+POS_KEYWORDS 8330                
+POS_MISC 2210                
+POS_ERRORS 8937                
+POS_CLUSTER 3474                
+POS_SIDER_404 9049                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20101029184602 442 111467 44751014704
+FirstTime 20101001025050
+LastTime 20101029184438
+LastUpdate 20101030003250 442 0 331 81 30
+TotalVisits 288                 
+TotalUnique 217                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 220                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 112 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 26 238832 75 75 698598
+1 12 48 268204 24 25 164711
+2 3 3 40334 36 36 344097
+3 14 35 385471 26 36 336842
+4 3 13 128875 45 45 445595
+5 4 4 59252 27 27 211667
+6 5 24 271914 22 23 224444
+7 16 62 663556 57 58 507354
+8 12 23 254310 63 63 520712
+9 43 224 2220420 135 136 281335
+10 61 307 2570190 40 50 380063
+11 77 336 3756366 31 32 243910
+12 65 281 2906455 33 37 327045
+13 43 216 2121809 14 14 107602
+14 36 169 1881695 32 32 323897
+15 81 351 3518820 35 36 221420
+16 51 239 2200197 23 23 149024
+17 109 503 6228383 26 26 169042
+18 84 310 3436887 41 42 320362
+19 61 227 2411916 49 53 395530
+20 63 272 3099209 20 20 158890
+21 35 170 1522617 87 91 1005023
+22 28 117 1250943 87 87 891659
+23 31 141 1439657 27 29 354312
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 943 4101 42876312
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+robot 169 1935766 20101029162851 0
+slurp 166 1402281 20101029160211 0
+baiduspider 126 1803688 20101029184602 0
+googlebot 61 263298 20101029101317 0
+yandex 46 655400 20101028233932 0
+nutch 44 675119 20101029124424 0
+\wbot[\/\-] 25 315146 20101027114557 0
+crawl 25 315259 20101029002050 0
+java 11 105931 20101029104843 0
+spider 9 170205 20101026145731 0
+exabot 4 91704 20101026075238 0
+msnbot 3 56697 20101023035500 0
+jeeves 2 21239 20101026215921 0
+surveybot 2 37798 20101022112619 0
+turnitinbot 6 56298 20101027192512 0
+mj12bot 2 37836 20101027062912 0
+netcraft 2 2554 20101007212312 0
+msnbot\-media 5 302274 20101028235756 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+bmp 561 1921436 0 0
+html 575 12288875 0 0
+js 8 114180 0 0
+jpg 2031 19912134 0 0
+htm 368 816101 0 0
+gif 558 7823586 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winlong 516
+winxp 2537
+winnt 886
+win98 1
+linuxubuntu 15
+linux 1
+linuxfedora 10
+macosx 85
+win2003 21
+Unknown 29
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 23
+msie6.0 1406
+firefox2.0.0.20 24
+firefox3.0.7 15
+firefox3.5.13 15
+firefox3.6 16
+firefox3.5.14 26
+firefox3.6.11 105
+libwww 9
+firefox3.6.6 12
+firefox3.5.15 15
+lynx 1
+firefox3.5.3 10
+msie8.0 1170
+firefox0.10.1 2
+mozilla 12
+firefox1.0 1
+msie7.0 499
+firefox3.6.10 280
+Unknown 6
+firefox3.0.19 30
+firefox3.6.8 18
+safari 428
+netscape 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Mozilla 20101008135040
+Mozilla/5.001_(windows;_U;_NT4.0;_en-us)_Gecko/25250101 20101016013750
+Xenu_Link_Sleuth/1.3.8 20101017093331
+- 20101026231103
+libwww-perl/5.805 20101014062033
+link_checker/1.1 20101022171028
+Mozilla/4.0_(compatible;) 20101002075556
+Lynx/2.8.7pre.6_libwww-FM/2.14_SSL-MM/1.4.1 20101015014353
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+- 20101026231103
+link_checker/1.1 20101022171028
+Xenu_Link_Sleuth/1.3.8 20101017093331
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 242 267
+From1 0 0
+From2 146 158
+From3 6 6
+From4 549 3670
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 143 155
+search 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://www.sitetalk-generation.com 2 2
+http://www.way-to-success.com 1 1
+http://www.sitetalk-world.info 1 1
+http://www.uribesalgo.com 1 1
+http://ww2.cox.com/search/residential/sandiego/myconnection/8524386988567476623/external.cox 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 47
+uribe+velez 17
+arrendamientos+uribe+velez 15
+bienes+raices+medellin 13
+www.uribevelez.com 12
+uribevelez.com 10
+uribe+velez+arrendamientos 7
+bienes+raices+medellin+colombia 7
+medellin+antiguo 4
+uribe+velez+inmobiliaria 4
+uribe+bienes 3
+bienes+de+uribe 1
+wwwuribevelez.con 1
+bienes+raices+en+medell 1
+uribe+velez+y+cia 2
+arrendamiento+uribe+velez 1
+bienes+y+raices+en+medellin+colombia 1
+bienes+y+bienes+medellin+colombia 1
+uribe+velez+propiedad+raiz 1
+www.urive+velez.com 1
+inmobiliaria+uribe+velez 1
+velez 2
+bienes+raices+de+medellin 2
+bienes+y+bienes+medellin 1
+bienes+raices+en+colombia 1
+www.arrendamientosybienesraices.com 1
+bines+raiz+medellin 1
+zonas+de+las+ciudades 1
+arrendamiento+uribevelez 1
+wwwurivevelez.com 1
+a.+uribe+y+cia+ltda 1
+bienes+raiz+medellin 2
+uribebienes 1
+www.uribe 1
+uribevelez 3
+www.salinas+b+ienes+raices+medellin+colombia 1
+bienes+raices+en+medellin+colombia 2
+velez+raices 1
+velez.com 1
+fotograf%c3%adas+medell%c3%adn+antiguo 1
+uribe+velez+y+cia+ltda+10178 1
+fotos+de+medellin+antiguo 1
+propiedades+de+uribe+velez 1
+arrendamientos+uribe+v%c3%89lez+ltda. 1
+zonas+y+siudades 2
+uribe+velez+%26+cia+bienes+raices 1
+compalia+de+losuribe+velez 1
+bienes+y+raices+en+medellin 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 47
+uribe 57
+velez 55
+bienes 39
+medellin 37
+raices 31
+arrendamientos 23
+colombia 13
+www.uribevelez.com 12
+uribevelez.com 10
+y 10
+10178 1
+medell%c3%adn 1
+antiguo 6
+a. 1
+%26 1
+wwwuribevelez.con 1
+raiz 4
+siudades 2
+medell 1
+compalia 1
+en 6
+de 7
+ltda. 1
+b 1
+www.arrendamientosybienesraices.com 1
+bines 1
+www.urive 1
+fotos 1
+propiedad 1
+fotograf%c3%adas 1
+www.salinas 1
+v%c3%89lez 1
+ienes 1
+wwwurivevelez.com 1
+las 1
+www.uribe 1
+inmobiliaria 5
+uribevelez 4
+uribebienes 1
+velez.com 2
+arrendamiento 2
+ciudades 1
+propiedades 1
+cia 5
+zonas 3
+ltda 2
+losuribe 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+416 1 185
+206 5 79170
+404 382 455286
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 106
+/admin/phpmyadmin/scripts/setup.php 1 -
+/robots.txt 265 -
+/sqlweb/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+/admin/pma/scripts/setup.php 1 -
+/forums/ 1 -
+/forum/ 1 -
+/phpmanager/scripts/setup.php 1 -
+/php-myadmin/scripts/setup.php 1 -
+/phpmyadmin2/scripts/setup.php 1 -
+/vb/ 1 -
+/phpMyAdmin-2.8.2/scripts/setup.php 1 -
+/sqlmanager/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+/phpMyAdmin-2.5.4/scripts/setup.php 1 -
+/phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+/phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+/webadmin/scripts/setup.php 1 -
+/pma2005/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+/php-my-admin/scripts/setup.php 2 -
+/phpMyAdmin-2.6.0/scripts/setup.php 1 -
+/scripts/setup.php 1 -
+/phpmyadmin1/scripts/setup.php 1 -
+/old/ 1 -
+/phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 -
+/PMA2005/scripts/setup.php 1 -
+/phpmy-admin/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.4/scripts/setup.php 1 -
+/phpadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-pl3/scripts/setup.php 1 -
+/phpMyAdmin-2.8.1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.2/scripts/setup.php 1 -
+/myadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+/mysql-admin/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+/phpMyAdmin/scripts/setup.php 2 -
+/phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+/webdb/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.2-rc1/scripts/setup.php 2 -
+/url(res:/C:/Program+Files/Google/Google+Toolbar/Component/GoogleToolbarDynamic_mui_en_950DF09FAB501E03.dll/findy_buttons.png) 1 http://www.uribevelez.com/Conavi.htm
+/vbulletin/ 1 -
+/mysqladmin/scripts/setup.php 2 -
+/xampp/phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.3/scripts/setup.php 2 -
+/www.facebook.com 1 -
+/phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+/mysql/scripts/setup.php 1 -
+/dbadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-pl1/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+/phpmyadmin/scripts/setup.php 2 -
+/phpMyAdmin-2.5.1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.2-beta1/scripts/setup.php 1 -
+/typo3/phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 -
+/_derived/nortbots.htm 6 http://www.uribevelez.com/_derived/nortbots.htm
+/Fotos/06521.jpg 1 -
+/phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+/websql/scripts/setup.php 2 -
+/phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+/web/phpMyAdmin/scripts/setup.php 1 -
+/admin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.3-pl1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.6/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5/scripts/setup.php 1 -
+/phpMyAdmin-2.2.3/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+/p/m/a/scripts/setup.php 1 -
+/Fotos/05329.jpg 1 -
+/phpMyAdmin-2.6.1-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0/scripts/setup.php 1 -
+/phpMyAdmin-2.2.6/scripts/setup.php 1 -
+/phpMyAdmin-2/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+/Fotos/05451.jpg 1 -
+/phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+/pma/scripts/setup.php 1 -
+/web/scripts/setup.php 1 -
+/db/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+/url(data:image/png 1 http://www.uribevelez.com/Quienes_Somos.htm
+/phpMyAdmin-2.5.7/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+/mysqlmanager/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 220
+201.232.79.253 137 710 5110914 20101029104542
+201.232.111.247 91 530 3332415 20101027222219
+38.100.41.74 21 21 234095 20101029181934 20101029181811 /Tablas/Venta_Consultorios.html
+201.232.9.190 16 50 986247 20101026173420
+64.76.85.3 12 53 962016 20101029184438 20101029184203 /Solicitud_Arriendo.htm
+208.80.194.32 12 12 161336 20101022205540
+190.29.25.165 12 30 562303 20101005114013
+189.202.84.16 11 24 355881 20101025203025
+69.58.178.28 10 10 142641 20101017193150
+200.13.243.117 9 26 343249 20101005155555
+190.71.109.113 3 13 121331 20101003155327
+190.144.124.4 2 12 109957 20101015104414
+190.25.115.254 2 12 109957 20101027185130
+190.28.170.173 3 15 172563 20101025131539
+72.167.232.130 1 1 18918 20101026231103
+166.210.180.60 4 16 180737 20101019122414
+69.28.58.17 4 4 42944 20101008082333
+213.89.143.77 1 1 18918 20101015014353
+190.28.197.112 3 14 159180 20101001103130
+200.13.252.130 1 1 2302 20101021093600
+190.158.85.247 3 13 122403 20101025113803
+216.245.211.46 1 1 309 20101022161548
+190.71.228.244 2 3 32450 20101012120950
+201.232.113.38 4 14 120300 20101004194906
+178.77.77.40 1 1 18918 20101025005456
+190.127.89.205 2 12 109957 20101015203612
+190.125.215.237 3 14 152762 20101015063806
+190.248.113.79 3 14 152762 20101020205411
+190.165.156.241 3 16 184093 20101026170831
+190.249.56.71 4 17 192813 20101002073011
+200.116.70.90 4 17 188365 20101019181940
+200.29.101.184 2 12 109957 20101028190603
+190.126.225.181 1 1 18899 20101005124808
+190.29.18.75 1 1 2302 20101026182845
+190.28.198.161 6 17 173057 20101016171128
+190.152.74.4 0 1 65790 
+24.90.40.201 2 12 109957 20101019114358
+190.126.252.224 1 1 5547 20101016145217
+186.86.136.103 1 1 2302 20101003114501
+208.100.40.37 7 30 382081 20101005170806
+201.233.193.154 3 16 194783 20101002191102
+186.81.88.27 4 18 184093 20101020220723
+208.80.194.55 3 3 40334 20101004052446
+200.116.129.63 2 12 59528 20101014212919
+190.25.46.1 4 14 114851 20101026203713
+186.81.101.198 2 12 109957 20101027072513
+190.127.13.54 2 12 109957 20101029133055
+200.13.250.25 2 12 109957 20101021114144
+201.233.120.75 3 13 128856 20101019114505
+190.127.22.139 2 10 104695 20101025212536
+201.232.165.189 4 15 161482 20101008102117
+190.27.62.160 2 13 226853 20101014132554
+190.28.188.183 2 12 109957 20101024194402
+190.218.115.98 2 12 109957 20101026193007
+190.157.13.57 3 14 152762 20101022201252
+200.116.134.223 3 14 155606 20101018190452
+200.31.74.115 2 14 152684 20101027123343
+71.22.196.242 2 12 109957 20101026222727
+72.197.90.135 2 12 109957 20101017232221
+190.29.27.75 4 15 169837 20101022162657
+190.29.92.195 4 15 210160 20101012100838
+190.28.176.165 1 1 2302 20101012123524
+201.245.172.138 2 12 110245 20101015170811
+186.86.133.207 7 20 237092 20101019210314
+190.125.13.7 2 12 109957 20101018112044
+190.126.108.37 1 1 0 20101018005903
+186.9.55.199 2 2 11094 20101003193249
+89.18.178.38 5 5 94552 20101022171028
+190.28.40.5 2 12 109957 20101019130106
+201.232.153.83 4 15 135004 20101028223435
+69.158.53.53 4 17 207941 20101023194050
+190.250.87.205 2 12 109957 20101028131459
+207.46.92.18 1 1 18899 20101023083007
+190.248.186.125 1 1 2302 20101001074459
+190.248.183.198 3 15 144730 20101024094428
+178.77.75.162 1 1 18918 20101026053426
+70.189.188.68 1 1 18899 20101016223503
+66.90.104.230 4 14 114827 20101027174215
+208.80.194.34 3 3 40334 20101027192419
+190.29.52.12 4 16 186356 20101003184411
+166.109.0.117 4 15 178421 20101013111033
+190.248.129.58 5 26 287242 20101027174809
+190.99.206.200 1 1 18899 20101028154414
+186.81.91.152 3 16 274305 20101003142517
+82.247.157.153 1 1 18918 20101021042515
+190.9.197.171 1 1 18899 20101011202032
+190.248.182.210 2 13 226853 20101015110509
+201.232.93.197 2 12 109957 20101027095617
+72.145.242.144 5 16 188736 20101017102621
+186.81.89.144 8 27 382787 20101025125527
+190.71.101.142 2 13 226853 20101024123740
+190.158.72.26 4 19 330451 20101028181819
+186.98.164.81 1 4 84826 20101003141745
+201.232.35.151 3 24 302616 20101026151822
+190.66.79.124 2 12 109957 20101019215534
+200.116.69.91 3 13 118117 20101012150300
+190.248.129.54 1 2 36036 20101027174522
+200.116.236.49 7 28 475421 20101012140212
+63.250.195.171 1 1 18899 20101008135040
+201.216.7.73 2 12 109957 20101019094924
+190.248.188.153 5 24 526019 20101025175442
+190.29.7.156 4 21 306779 20101013144526
+186.87.127.38 3 4 80038 20101023095644
+190.252.59.124 2 12 109957 20101026212033
+190.165.139.115 3 13 112140 20101004164747
+190.71.225.108 4 18 242396 20101025204039
+190.157.48.220 4 15 178421 20101008134728
+200.116.18.124 2 13 226853 20101021200530
+190.28.193.159 4 15 165208 20101026104054
+178.77.78.8 1 1 18918 20101028104027
+186.97.157.235 6 17 237913 20101003185900
+190.254.2.4 3 14 125293 20101015092003
+81.32.189.80 9 20 235180 20101015035525
+190.248.160.137 3 13 122403 20101024232855
+186.43.42.17 3 15 178607 20101013150529
+186.98.239.33 4 19 262397 20101001183942
+201.232.47.136 2 23 0 20101005171331
+201.233.255.128 3 18 331938 20101002111726
+190.156.208.247 4 14 117687 20101018191730
+190.71.227.95 2 12 109957 20101005155803
+186.80.93.152 2 12 109957 20101027162319
+190.248.197.170 3 15 172563 20101027203206
+190.71.122.24 3 13 121331 20101013191834
+200.58.203.54 1 1 2326 20101020170339
+208.80.194.47 3 3 40334 20101025112054
+200.116.151.75 4 15 165208 20101025215059
+190.249.55.106 2 12 109957 20101027212718
+190.28.217.202 4 18 216340 20101021192945
+74.52.245.146 1 1 18918 20101020082230
+201.232.59.137 3 14 155606 20101026150843
+200.116.251.128 3 15 168564 20101025184425
+173.13.64.171 4 15 137739 20101019110212
+190.71.129.242 9 31 377189 20101014172405
+200.116.129.82 3 14 155606 20101021182736
+91.106.224.112 3 16 259086 20101025130244
+201.232.212.149 2 13 226853 20101020152258
+190.125.6.41 7 20 75160 20101017203514
+186.99.177.46 4 15 165568 20101027222316
+201.232.220.60 2 12 109957 20101005145404
+77.8.222.235 1 1 309 20101017093331
+200.3.145.96 2 13 234331 20101029093220
+69.28.58.13 2 2 21472 20101025012702
+190.90.10.3 4 15 165208 20101016165605
+201.232.78.214 2 13 226853 20101025124649
+190.248.194.112 1 12 192659 20101025175301
+190.249.62.89 4 15 178421 20101004175122
+64.121.56.246 2 2 618 20101028134537
+186.114.37.192 2 12 109957 20101021182609
+190.145.105.218 0 2 10679 
+201.227.103.251 4 15 130840 20101026075048
+186.85.125.168 3 13 112259 20101028210529
+190.71.61.219 2 12 109957 20101026155735
+208.80.194.48 3 3 40334 20101019124339
+190.249.201.38 4 15 169837 20101028165011
+190.127.94.193 2 12 109957 20101020044125
+201.232.185.117 6 36 930126 20101002175003
+201.232.178.198 1 3 69024 20101007220210
+200.122.198.99 2 12 109957 20101021175854
+58.34.74.100 2 12 109957 20101029115421
+186.43.73.122 7 18 210605 20101029174442
+87.118.82.104 1 1 18918 20101013204737
+69.28.58.16 2 2 21472 20101001235220
+186.80.86.204 2 12 109957 20101027113957
+190.29.9.218 3 13 115504 20101021141404
+190.28.34.72 3 14 159180 20101013203408
+80.195.116.196 5 17 227644 20101002075628
+190.125.82.93 2 8 98939 20101019010605
+79.145.223.66 2 12 109957 20101015160358
+190.71.252.127 5 16 167510 20101025155639
+201.232.176.198 6 30 347545 20101026182530
+186.99.253.110 1 1 0 20101003141528
+64.76.85.35 5 30 412985 20101008114851
+201.233.196.251 2 12 109957 20101024194258
+190.126.9.231 7 23 359584 20101027200214
+190.125.32.229 3 14 152762 20101019222612
+190.127.6.13 6 25 160786 20101012232104
+190.125.218.254 2 12 109957 20101017005336
+190.249.35.220 3 14 127441 20101013155404
+186.86.76.116 4 31 536515 20101016231341
+190.145.253.74 3 14 152762 20101020132519
+190.71.227.18 3 13 122403 20101026151642
+190.28.209.52 6 26 236234 20101015142600
+190.157.13.51 9 42 455220 20101010173634
+190.70.103.179 2 12 109957 20101020100857
+190.28.76.228 2 13 226853 20101019133606
+201.233.210.162 3 14 151316 20101029110018
+153.90.198.170 2 12 109957 20101012154014
+186.98.138.241 2 12 109957 20101012182646
+200.13.250.20 2 12 109957 20101026173458
+213.172.38.134 3 16 403312 20101013093727
+200.116.131.98 5 30 442133 20101015174351
+201.232.107.174 5 18 162405 20101015124153
+201.233.150.199 3 16 275119 20101003202514
+190.71.245.188 3 17 203894 20101025143756
+201.232.101.224 3 15 168291 20101019124056
+190.28.25.63 3 15 168564 20101022165133
+69.28.58.14 2 2 21472 20101019193918
+200.116.55.199 3 16 194783 20101014090436
+190.28.243.200 3 15 168564 20101027122604
+195.134.66.80 1 1 18918 20101016013750
+190.216.194.150 5 16 173240 20101001081242
+200.114.58.103 3 18 185733 20101023114928
+186.81.93.170 2 13 175747 20101028193048
+150.70.75.155 2 2 37836 20101019105638
+200.116.23.178 2 12 109957 20101020173237
+190.71.182.211 4 20 280637 20101015203308
+190.125.76.156 2 12 109957 20101023010338
+190.126.214.171 4 24 109957 20101017110426
+201.232.27.168 2 12 109957 20101020163925
+201.234.66.5 0 1 15802 
+68.160.41.132 3 14 125293 20101017232533
+190.146.21.21 3 13 112259 20101025124319
+190.125.185.97 2 12 109957 20101013153430
+190.126.69.31 3 14 162042 20101014114922
+186.28.21.29 2 12 109957 20101028031538
+83.240.229.38 1 9 100234 20101014062019
+190.157.13.249 4 17 196539 20101016234759
+190.29.66.101 3 15 169639 20101028221456
+190.248.131.62 1 1 2535 20101027170033
+190.255.166.31 2 12 109957 20101027155900
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20101001 49 187 1437262 9
+20101002 32 156 2087480 7
+20101003 36 151 1725002 11
+20101004 26 108 1034702 8
+20101005 39 148 1652627 9
+20101007 1 3 69024 1
+20101008 20 87 1010638 7
+20101010 2 12 109957 1
+20101011 1 1 18899 1
+20101012 34 136 1424226 12
+20101013 48 229 2562709 16
+20101014 28 124 1413377 10
+20101015 50 229 2647060 14
+20101016 21 83 1114683 7
+20101017 34 109 862010 9
+20101018 22 113 933035 6
+20101019 61 260 2360175 21
+20101020 28 145 1464959 12
+20101021 49 206 1863045 13
+20101022 20 74 747083 8
+20101023 26 133 1119936 7
+20101024 29 164 1475468 9
+20101025 70 296 3624153 22
+20101026 68 310 3471390 22
+20101027 57 274 2625131 22
+20101028 43 214 2187466 15
+20101029 49 149 1834815 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 12
+15mn-30mn 10
+2mn-5mn 14
+30s-2mn 27
+0s-30s 211
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/index.html 345 5671364 257 35
+/Objetivo.htm 298 583389 5 119
+/Tablas/Arriendo_Apartamentos.html 73 3145875 2 41
+/Tablas/Venta_Apartamentos.html 41 1897682 1 19
+/Tablas/Arriendo_Casas.html 32 387636 1 16
+/Solicitud_Arriendo.htm 24 55358 17 8
+/Tablas/Venta_Casas.html 23 343422 0 11
+/zonas_y_ciudades.htm 16 88752 2 9
+/Tablas/Venta_Fincas.html 15 526115 2 5
+/Tablas/Arriendo_Oficinas.html 10 81621 0 4
+/Tablas/Arriendo_Locales.html 6 73778 0 1
+/Tablas/Venta_Locales.html 4 25737 0 0
+/Tablas/Venta_Bodegas.html 5 25489 0 1
+/Tablas/Arriendo_Consultorios.html 2 5641 0 0
+/Tablas/Venta_Consultorios.html 3 8453 0 0
+/Tablas/Arriendo_Bodegas.html 4 11262 0 1
+/Quienes_Somos.htm 9 19647 0 1
+/Tablas/Venta_Lotes.html 7 64676 0 2
+/Tablas/Venta_Oficinas.html 5 20124 0 0
+/promotores.htm 7 18977 0 3
+/objetivo.htm 5 12770 0 5
+/Conavi.htm 9 37208 1 5
+END_SIDER

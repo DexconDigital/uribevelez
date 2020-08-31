@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.png" />
+	<title>Contáctenos</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/lib/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="fonts/font-awesome-4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="vendors/jquery-ui-1.11.4/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="vendors/jcarousel/css/jquery.jcarousel.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+
+
+</head>
+
+<body>
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+	<div class="menu-fijo menu-ppal">
+
+	</div>
+	<div class="home-banner style-4" id="margin-menu" style="background: url(images/banners/contactenos_banner.jpg) no-repeat center;background-size: 100% 100%;">
+		<div class="container">
+			<div class="banner-content">
+				<div class="banner-message">
+					<div class="banner-entry">
+						<span class="entry-title">Contáctenos</span>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="content" class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="breadcrumbs">
+						<span class="clickable"><a href="index.html#">Inicio</a></span>
+						<span class="delimiter">/</span>
+						<span class="active-page">Contáctenos</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h4 class="column-title">Formulario de Contacto</h4>
+					<div class="contacts-block">
+						<div class="row">
+							<div class="col-sm-7 col-md-8 col-lg-9">
+								<div class="contact-form">
+									<div class="row">
+										<div class="col-sm-12">
+											<span class="contact-message">Tu correo no será publicado,
+												Campos requeridos marcados con *</span>
+										</div>
+									</div>
+									<form action="js/mail.php" method="POST" enctype="multipart/form-data">
+										<div class="row">
+											<div class="col-sm-12">
+												<input type="text" class="name" name="name" placeholder="Nombre *" required >
+											</div>
+											<div class="col-sm-12">
+												<input type="text" class="email" name="phone" placeholder="Telefono *" required >
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-12">
+												<input type="email" class="email" name="email" placeholder="Email *" required >
+											</div>
+											<div class="col-sm-12">
+												<input type="text" class="company-name" name="asunto" placeholder="Asunto ">
+											</div>
+										</div>
+										<textarea name="message" class="message" placeholder="Mensaje *" required ></textarea>
+
+										<input type="checkbox"  class="company-name" style="margin-bottom:20px" required> He leído y acepto la policita de
+										protección de datos<br>
+										<button class="send-btn">Enviar</button>
+										<a href="media/POLÍTICA_DE_TRATAMIENTO_DE_PROTECCIÓN_DE_DATOS_URIBE_VELEZ.PDF" target="_blank" class="a-contacto">Descarga
+											Nuestra Politica de Datos</a>
+									</form>
+								</div>
+							</div>
+							<div class="col-sm-5 col-md-4 col-lg-3">
+								<ul class="contacts-listing" style="margin-top: 0px;">
+									<li>
+										<div class="icon-contaier">
+											<i class="fa fa-map-marker"></i>
+										</div>
+										<div class="descr">
+											<p>Transversal 38 # 73A 61, Medellín – Colombia</p>
+										</div>
+									</li>
+									<li>
+										<div class="icon-contaier">
+											<i class="fa fa-clock-o"></i>
+										</div>
+										<div class="descr">
+											<p><span>Lunes a Viernes: </span>de 8:00 a.m. a 12:00 m. y de 2:00 p.m. a 6:00 p.m</p>
+										</div>
+									</li>
+									<li>
+										<div class="icon-contaier">
+											<i class="fa fa-phone"></i>
+										</div>
+										<div class="descr">
+											<p><a href="tel:0344407790" target="blank">(034) 4407790</a></p>
+										</div>
+									</li>
+									<li>
+										<div class="icon-contaier">
+											<i class="fa fa-whatsapp"></i>
+										</div>
+										<div class="descr">
+											<p><a href="https://wa.me/573053593792" target="blank">305 3593 792</a></p>
+										</div>
+									</li>
+									<li>
+										<div class="icon-contaier">
+											<i class="fa fa-envelope"></i>
+										</div>
+										<div class="descr">
+											<p><a href="mailto:inmobiliaria@uribevelez.com" target="blank">inmobiliaria@uribevelez.com</a></p>
+										</div>
+									</li>
+									<li>
+										<img src="images/IMAGEN DE UBICACION [1600x1200].jpg" style="width: 100%;">
+									</li>
+
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="map"></div>
+	<div class="scroll-container">
+		<div class="container">
+			<a href="contacts-contact_us_photo.html#" class="scroll-top-btn"><i class="fa fa-angle-double-up"></i></a>
+		</div>
+	</div>
+	<footer class="footer footer-ppal">
+
+	</footer>
+	<script type="text/javascript" src="js/libs/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	 crossorigin="anonymous"></script>
+	<script type="text/javascript" src="vendors/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="vendors/languageswitcher/languageswitcher.js"></script>
+	<script type="text/javascript" src="vendors/jcarousel/js/jquery.jcarousel.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmu-UkTcheWni6_HMOKYU9x3AYP571e5s&callback=initMap"
+	 async defer></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript">
+		function initMap() {
+			if ($('#map').length > 0) {
+
+				var uluru = { lat: 6.243100, lng: -75.596322 };
+
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 15,
+					center: uluru
+				});
+
+				var contentString = '<div id="content">' +
+					'<div id="siteNotice">' +
+					'</div>' +
+					'<div id="bodyContent">' +
+					'<img src="images/logo/FONDO_BLANCO.png" />' +
+					'</div>' +
+					'</div>';
+
+				var infowindow = new google.maps.InfoWindow({
+					content: contentString
+				});
+
+				var marker = new google.maps.Marker({
+					position: uluru,
+					map: map,
+				});
+				marker.addListener('click', function () {
+					infowindow.open(map, marker);
+				});
+				marker.addListener('mouseover', function () {
+					infowindow.open(map, marker);
+				});
+
+			}
+		}
+
+	</script>
+</body>
+
+</html>

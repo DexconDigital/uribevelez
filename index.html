@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.png" />
+	<title>Inicio</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/lib/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="fonts/font-awesome-4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="vendors/jquery-ui-1.11.4/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="vendors/jcarousel/css/jquery.jcarousel.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body>
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+	<div class="menu-fijo menu-ppal">
+
+	</div>
+
+
+	<div class="container " id="padding-menu">
+		<div class="main-filter hidden-xs" style="display: block !important;">
+
+			<div class="filter-form">
+
+				<div class="col-sm-2">
+					<span class="item-label">Operación</span>
+
+					<select class=" select-api operacion">
+						<option>Operación</option>
+
+					</select>
+
+				</div>
+				<div class="col-sm-2">
+					<span class="item-label">Tipo de Inmueble</span>
+					<div>
+						<select class=" select-api inmueble">
+							<option>Inmueble</option>
+
+						</select>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<span class="item-label">Ciudad</span>
+					<div>
+						<select class=" select-api ciudad">
+							<option>Ciudad</option>
+
+						</select>
+					</div>
+				</div>
+
+				<div class="col-sm-2">
+					<span class="item-label">Barrio</span>
+					<div>
+						<select class=" select-api barrio">
+							<option>Barrio</option>
+
+						</select>
+					</div>
+				</div>
+
+				<div class="col-sm-1">
+					<span class="item-label">Codigo</span>
+					<div class="ui-front">
+						<input class="codigo-input codeInm" name="prop-select">
+
+					</div>
+
+				</div>
+
+				<div class="col-sm-2">
+					<span class="item-label">Precio</span>
+					<div class="range-wrap">
+						<div class="range-fields">
+							<input type="text" id="min-field" />
+							<span class="delimiter"></span>
+							<input type="text" id="max-field" />
+						</div>
+						<div class="slider"></div>
+						<div class="scale">
+							<span class="min-value"></span>
+							<span class="max-value"></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-1">
+					<button class="button-buscar search-1">Buscar</button>
+				</div>
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="home-banner">
+		<div class="container">
+			<div class="banner-content">
+				<div class="banner-message">
+					<div class="banner-entry">
+						<span class="entry-title">Tú Inmueble Soñado</span>
+						<span class="entry-message">Te ayudaremos a encontrarlo</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div> -->
+	<div id="content" class="container-fluid" >
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="block-title" style="margin-top: 0px;">Propiedades Destacadas</h2>
+					<div class="object-slider latest-properties" id="propiedades">
+						<!-- <div class="jcarousel-arrows">
+							<a href="index.html#" class="prev-slide"><i class="fa fa-angle-left"></i></a>
+							<span class="text">Todas las Propiedades
+							</span>
+							<a href="index.html#" class="next-slide"><i class="fa fa-angle-right"></i></a>
+						</div>
+						<div class="obj-carousel carousel">
+							<ul>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/object-slider/1.jpg" alt="">
+											<span class="like">
+												<i class="fa fa-heart"></i>
+											</span>
+										</div>
+										<div class="item-thumbnail">
+											<div class="single-thumbnail">
+												<i class="icon bath"></i>
+												<span class="value">3</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon sleep"></i>
+												<span class="value">2</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon corner"></i>
+												<span class="value">190 ft²</span>
+											</div>
+										</div>
+										<div class="item-entry">
+											<span class="item-title"><a href="index.html#">Codigo</a></span>
+											<p class="item-text">Tipo de Operacíon</p>
+											<p class="item-text">Tipo de Inmueble</p>
+											<div class="item-info">
+												<span class="price">$123</span>
+
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/object-slider/1.jpg" alt="">
+											<span class="like">
+												<i class="fa fa-heart"></i>
+											</span>
+										</div>
+										<div class="item-thumbnail">
+											<div class="single-thumbnail">
+												<i class="icon bath"></i>
+												<span class="value">3</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon sleep"></i>
+												<span class="value">2</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon corner"></i>
+												<span class="value">190 ft²</span>
+											</div>
+										</div>
+										<div class="item-entry">
+											<span class="item-title"><a href="index.html#">Codigo</a></span>
+											<p class="item-text">Tipo de Operacíon</p>
+											<p class="item-text">Tipo de Inmueble</p>
+											<div class="item-info">
+												<span class="price">$123</span>
+
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/object-slider/1.jpg" alt="">
+											<span class="like">
+												<i class="fa fa-heart"></i>
+											</span>
+										</div>
+										<div class="item-thumbnail">
+											<div class="single-thumbnail">
+												<i class="icon bath"></i>
+												<span class="value">3</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon sleep"></i>
+												<span class="value">2</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon corner"></i>
+												<span class="value">190 ft²</span>
+											</div>
+										</div>
+										<div class="item-entry">
+											<span class="item-title"><a href="index.html#">Codigo</a></span>
+											<p class="item-text">Tipo de Operacíon</p>
+											<p class="item-text">Tipo de Inmueble</p>
+											<div class="item-info">
+												<span class="price">$123</span>
+
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/object-slider/1.jpg" alt="">
+											<span class="like">
+												<i class="fa fa-heart"></i>
+											</span>
+										</div>
+										<div class="item-thumbnail">
+											<div class="single-thumbnail">
+												<i class="icon bath"></i>
+												<span class="value">3</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon sleep"></i>
+												<span class="value">2</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon corner"></i>
+												<span class="value">190 ft²</span>
+											</div>
+										</div>
+										<div class="item-entry">
+											<span class="item-title"><a href="index.html#">Codigo</a></span>
+											<p class="item-text">Tipo de Operacíon</p>
+											<p class="item-text">Tipo de Inmueble</p>
+											<div class="item-info">
+												<span class="price">$123</span>
+
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/object-slider/1.jpg" alt="">
+											<span class="like">
+												<i class="fa fa-heart"></i>
+											</span>
+										</div>
+										<div class="item-thumbnail">
+											<div class="single-thumbnail">
+												<i class="icon bath"></i>
+												<span class="value">3</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon sleep"></i>
+												<span class="value">2</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon corner"></i>
+												<span class="value">190 ft²</span>
+											</div>
+										</div>
+										<div class="item-entry">
+											<span class="item-title"><a href="index.html#">Codigo</a></span>
+											<p class="item-text">Tipo de Operacíon</p>
+											<p class="item-text">Tipo de Inmueble</p>
+											<div class="item-info">
+												<span class="price">$123</span>
+
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/object-slider/1.jpg" alt="">
+											<span class="like">
+												<i class="fa fa-heart"></i>
+											</span>
+										</div>
+										<div class="item-thumbnail">
+											<div class="single-thumbnail">
+												<i class="icon bath"></i>
+												<span class="value">3</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon sleep"></i>
+												<span class="value">2</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon corner"></i>
+												<span class="value">190 ft²</span>
+											</div>
+										</div>
+										<div class="item-entry">
+											<span class="item-title"><a href="index.html#">Codigo</a></span>
+											<p class="item-text">Tipo de Operacíon</p>
+											<p class="item-text">Tipo de Inmueble</p>
+											<div class="item-info">
+												<span class="price">$123</span>
+
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/object-slider/2.jpg" alt="">
+											<span class="like">
+												<i class="fa fa-heart"></i>
+											</span>
+										</div>
+										<div class="item-thumbnail">
+											<div class="single-thumbnail">
+												<i class="icon bath"></i>
+												<span class="value">3</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon sleep"></i>
+												<span class="value">2</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon corner"></i>
+												<span class="value">190 ft²</span>
+											</div>
+										</div>
+										<div class="item-entry">
+											<span class="item-title"><a href="index.html#">Family House In Hudson</a></span>
+											<p class="item-text">Phasellus vestibulum mauris leo, et ultricies sem ultrices nec. Nunc volpat tortor
+												vitae...</p>
+											<div class="item-info">
+												<span class="price">USD 746,00</span>
+												<div class="pull-right buttons">
+													<a href="index.html#" class="share"><i class="fa fa-share-alt"></i></a>
+													<a href="index.html#" class="favourite">
+														<i class="fa fa-star-o"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/object-slider/3.jpg" alt="">
+											<span class="like">
+												<i class="fa fa-heart"></i>
+											</span>
+										</div>
+										<div class="item-thumbnail">
+											<div class="single-thumbnail">
+												<i class="icon bath"></i>
+												<span class="value">3</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon sleep"></i>
+												<span class="value">2</span>
+											</div>
+											<div class="single-thumbnail">
+												<i class="icon corner"></i>
+												<span class="value">190 ft²</span>
+											</div>
+										</div>
+										<div class="item-entry">
+											<span class="item-title"><a href="index.html#">Lake View In Manhattan</a></span>
+											<p class="item-text">Phasellus vestibulum mauris leo, et ultricies sem ultrices nec. Nunc volpat tortor
+												vitae...</p>
+											<div class="item-info">
+												<span class="price">USD 234,00</span>
+												<div class="pull-right buttons">
+													<a href="index.html#" class="share"><i class="fa fa-share-alt"></i></a>
+													<a href="index.html#" class="favourite">
+														<i class="fa fa-star-o"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+
+							</ul>
+						</div>
+						<p class="jcarousel-pagination"></p> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="row">
+			<div class="our-agents gray-bg">
+				<div class="container">
+					<h2 class="block-title">Nuestros Asesores</h2>
+					<div class="best-agents">
+						<div class="jcarousel-arrows">
+							<a href="index.html#" class="prev-slide"><i class="fa fa-angle-left"></i></a>
+							<span class="text">Todos los Asesores</span>
+							<a href="index.html#" class="next-slide"><i class="fa fa-angle-right"></i></a>
+						</div>
+						<div class="ag-carousel carousel">
+							<ul>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/agency/1.png" alt="">
+											
+										</div>
+										<span class="name">Djohn Kollings</span>
+
+										<ul class="contact-listing">
+											<li>
+												<span class="icon"><i class="fa fa-phone"></i></span>
+												<span class="phone">+234-754-596</span>
+											</li>
+											<li>
+												<span class="icon"><i class="fa fa-envelope"></i></span>
+												<a href="index.html#" class="mail">info@example.com</a>
+											</li>
+
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/agency/2.png" alt="">
+											
+										</div>
+										<span class="name">Eline Dorther</span>
+
+										<ul class="contact-listing">
+											<li>
+												<span class="icon"><i class="fa fa-phone"></i></span>
+												<span class="phone">+234-754-596</span>
+											</li>
+											<li>
+												<span class="icon"><i class="fa fa-envelope"></i></span>
+												<a href="index.html#" class="mail">info@example.com</a>
+											</li>
+
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/agency/3.png" alt="">
+											
+										</div>
+										<span class="name">Erik Braun</span>
+
+										<ul class="contact-listing">
+											<li>
+												<span class="icon"><i class="fa fa-phone"></i></span>
+												<span class="phone">+234-754-596</span>
+											</li>
+											<li>
+												<span class="icon"><i class="fa fa-envelope"></i></span>
+												<a href="index.html#" class="mail">info@example.com</a>
+											</li>
+
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/agency/4.png" alt="">
+											
+										</div>
+										<span class="name">Djoanna Holl</span>
+
+										<ul class="contact-listing">
+											<li>
+												<span class="icon"><i class="fa fa-phone"></i></span>
+												<span class="phone">+234-754-596</span>
+											</li>
+											<li>
+												<span class="icon"><i class="fa fa-envelope"></i></span>
+												<a href="index.html#" class="mail">info@example.com</a>
+											</li>
+
+										</ul>
+									</div>
+								</li>
+								<li>
+									<div class="item">
+										<div class="preview">
+											<img src="media/images/agency/1.png" alt="">
+											
+										</div>
+										<span class="name">Djohn Kollings</span>
+
+										<ul class="contact-listing">
+											<li>
+												<span class="icon"><i class="fa fa-phone"></i></span>
+												<span class="phone">+234-754-596</span>
+											</li>
+											<li>
+												<span class="icon"><i class="fa fa-envelope"></i></span>
+												<a href="index.html#" class="mail">info@example.com</a>
+											</li>
+
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<p class="jcarousel-pagination"></p>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="row">
+			<div class="hero-banner banner-with-text">
+				<div class="container">
+					<div class="banner-entry pull-right">
+						<div class="logo"><img alt="img" src="images/logo-azul.png"></div>
+						<p class="banner-text">Solidez, prestigio y profesionalismo, son algunos de los valores que hemos perfeccionado
+							durante nuestra larga trayectoria desde el año 1986 en la actividad inmobiliaria de ventas y arrendamientos, y
+							nos han convertido en una empresa integral, especializada y dedicada a satisfacer las necesidades de nuestros
+							clientes, con asesoría y participación directa en la búsqueda y negociación de inmuebles, además con la
+							administración de contratos de arriendos.
+						</p>
+						<a href="quienes-somos.html" class="learn-more-btn">Ver Más</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="features-gallery">
+						<h2 class="block-title">Nuestros Servicios</h2>
+
+						<div class="feauture-gallery-container">
+							<div class="main-feature-item">
+								<div class="preview">
+									<a href="servicios.html#ventas">
+										<img alt="img" src="images/servicios_home.jpg">
+									</a>
+								</div>
+							</div>
+							<div class="small-feature-item">
+								<div class="preview">
+									<a href="servicios.html#arriendos">
+										<img alt="img" src="media/images/features-gallery/2.jpg">
+									</a>
+								</div>
+							</div>
+							<div class="small-feature-item">
+								<div class="preview">
+									<a href="servicios.html#ventas">
+										<div class="icon-container">
+											<i class="icon pappers"></i>
+										</div>
+										<div class="title-box">
+											<span class="top-title">Ventas</span>
+
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="small-feature-item">
+								<div class="preview">
+									<a href="servicios.html#consultoria">
+										<img alt="img" src="media/images/features-gallery/3.jpg">
+									</a>
+								</div>
+							</div>
+							<div class="small-feature-item">
+								<div class="preview">
+									<a href="servicios.html#arriendos">
+										<div class="icon-container">
+											<i class="icon home"></i>
+										</div>
+										<div class="title-box">
+											<span class="top-title">Arriendos</span>
+
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="small-feature-item">
+								<div class="preview">
+									<a href="servicios.html#ventas">
+										<img alt="img" src="media/images/features-gallery/4.jpg">
+									</a>
+								</div>
+							</div>
+							<div class="small-feature-item">
+								<div class="preview">
+									<a href="servicios.html#consultoria">
+										<div class="icon-container">
+											<i class="icon human"></i>
+										</div>
+										<div class="title-box">
+											<span class="top-title">Consultoria Inmobiliaria</span>
+
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h2 class="block-title">Nuestros Aliados</h2>
+					<div class="partners-holder style-1">
+
+						<div class="col-sm-6">
+							<img src="images/Logotipo_el_Libertador.png" style="width:100%">
+
+						</div>
+						<div class="col-sm-6">
+							<img src="images/Logo_SIMI.png" style="width:100%">
+
+						</div>
+
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<h2 class="block-title">Formularios Aseguradoras</h2>
+					<p><a href="http://www.ellibertador.co/wps/wcm/connect/bcc0e037-d0bb-49fd-ac19-10eda467d855/Formulario+Persona+Natural+Bogota%CC%81.pdf?MOD=AJPERES&CVID=mjozDmX&CVID=mcnaQRW&CVID=mcnaQRW&CVID=mcnaQRW"
+						 target="_blank">Persona Natural El Libertador</a></p>
+					<p><a href="http://www.ellibertador.co/wps/wcm/connect/42a67a13-dea5-4b1f-a5d6-1540aee97651/Formulario+Persona+Juri%CC%81dica+Bogota%CC%81.pdf?MOD=AJPERES&CVID=mjoy.ND&CVID=mcnb9.7&CVID=mcnb9.7&CVID=mcnb9.7"
+						 target="_blank">Persona Juridica El Libertador</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="empty-space"></div>
+
+	</div>
+	<div class="scroll-container">
+		<div class="container">
+			<a href="index.html#" class="scroll-top-btn"><i class="fa fa-angle-double-up"></i></a>
+		</div>
+	</div>
+	<footer class="footer footer-ppal">
+
+	</footer>
+
+	<script type="text/javascript" src="js/libs/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="vendors/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="vendors/languageswitcher/languageswitcher.js"></script>
+	<script type="text/javascript" src="vendors/jcarousel/js/jquery.jcarousel.min.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/search.js"></script>
+	<script src="js/notices.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+</body>
+
+</html>
