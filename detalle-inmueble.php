@@ -155,7 +155,7 @@
 						</div>
 						<div class="row">
 							<div class="col-sm-12">
-								<h4 class="small-section-title">Mapa de Ubicacion</h4>
+								<h4 class="small-section-title">Mapa de Ubicación</h4>
 							</div>
 							<div class="col-sm-12">
 
@@ -301,7 +301,7 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/owl.carousel.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/menu.js?v=1"></script>
 	<script type="text/javascript" src="js/search.js"></script>
 	<script type="text/javascript" src="js/similar.js"></script>
 	<script type="text/javascript" src="js/pop-up.js"></script>

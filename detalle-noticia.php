@@ -94,7 +94,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script type="text/javascript" src="vendors/video-js/video.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/menu.js?v=1"></script>
     <?php echo "<script>var titulo =' " . $nombre . "'</script>"; ?>
     <?php echo "<script>var id =' " . $id . "'</script>"; ?>
     <?php echo "<script>var descripcion =' " . $descripcion . "'</script>"; ?>

@@ -205,7 +205,7 @@
 	<script type="text/javascript" src="vendors/jcarousel/js/jquery.jcarousel.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/menu.js?v=1"></script>
 	<script type="text/javascript" src="js/paginador.js"></script>
 	<script type="text/javascript" src="js/search.js"></script>
 	<?php echo '<script>var gs = ' . $gs . '</script>'; ?>

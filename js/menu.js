@@ -14,7 +14,7 @@
         '        <a href="https://www.instagram.com/inmobiliaria_uribevelez/" target="_blank" class="social-icon"><i class="fa fa-instagram"></i></a>' +
         '</li>' +
         '    <li class="sociable-item">' +
-        '        <a href="https://wa.me/573053593792" target="blank" class="social-icon"><i class="fa fa-whatsapp"></i></a>' +
+        '        <a href="https://wa.me/573104220157" target="blank" class="social-icon"><i class="fa fa-whatsapp"></i></a>' +
         '</li>' +
         '</ul>' +
         '</div>' +
@@ -38,11 +38,11 @@
         ' <div class="col-sm-2">' +
         ' <div class="contact">' +
         '  <div class="icon">' +
-        '    <a href="tel:0344407790" target="blank"><i class="fa fa-phone"></i></a>' +
+        '    <a href="tel:6044407790" target="blank"><i class="fa fa-phone"></i></a>' +
         ' </div>' +
         ' <div class="descr">' +
         '    <span class="box-title">Llamanos:</span>' +
-        '    <span class="box-text"><a href="tel:0344407790" target="blank">(034) 4407790</a></span>' +
+        '    <span class="box-text"><a href="tel:6044407790" target="blank">(604) 4407790</a></span>' +
         ' </div>' +
         ' </div>' +
         '  </div>' +
@@ -153,7 +153,7 @@
         '										<i class="fa fa-phone"></i>' +
         '									</div>' +
         '									<div class="descr">' +
-        '										<span><a href="tel:0344407790" target="blank">(034) 4407790</a></span>' +
+        '										<span><a href="tel:6044407790" target="blank">(604) 4407790</a></span>' +
         '									</div>' +
         '								</li>' +
         '<li>' +
@@ -161,7 +161,7 @@
         '										<i class="fa fa-whatsapp"></i>' +
         '									</div>' +
         '									<div class="descr">' +
-        '										<span><a href="https://wa.me/573053593792" target="blank">305 3593 792</a></span>' +
+        '										<span><a href="https://wa.me/573104220157" target="blank">310 422 0157</a></span>' +
         '									</div>' +
         '								</li>' +
         '								<li>' +
